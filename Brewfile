@@ -46,9 +46,9 @@ cask 'iterm2'
 cask 'sublime-text'
 cask 'tower'
 cask 'vlc'
-#cask 'remote-desktop-connection'
 cask 'spotify'
 cask 'skype-for-business'
+#cask 'remote-desktop-connection'
 
 # Quicklook
 cask 'qlcolorcode'
