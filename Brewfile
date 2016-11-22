@@ -48,7 +48,7 @@ cask 'tower'
 cask 'vlc'
 cask 'spotify'
 cask 'skype-for-business'
-#cask 'remote-desktop-connection'
+cask 'karabiner-elements'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -79,3 +79,4 @@ cask 'font-ubuntu'
 
 # Install Mac App Store apps
 # mas '1Password', id: 443987910
+mas 'Microsoft Remote Desktop', id: 715768417
