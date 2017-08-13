@@ -1,6 +1,6 @@
 # Kevin's Dotfiles
 
-Last updated when setting up Macbook Pro 2016, Sierra 10.12.1, 11/16/2016.
+Last updated when setting up Macbook Pro 2016, Sierra 10.12.2, 08/13/2017.
 
 ## What Is This?
 
@@ -10,11 +10,10 @@ This repository is used to setup a new mac.  Automation allows me not to worry a
 
 Follow these install instructions to setup a new Mac.
 
-1. Install Xcode from app store, open and accept license
-2. Download zip file from GitHub or clone into ~/.dotfiles
-3. Run ./install.sh
-4. Log into iCloud by hand
-5. Restart and you're golden
+1. Download zip file from GitHub or clone into ~/.dotfiles
+2. Run ./install.sh
+3. Log into iCloud by hand
+4. Restart and you're golden
 
 Your Mac is now ready to use!
 

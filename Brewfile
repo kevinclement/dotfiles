@@ -11,6 +11,7 @@ brew 'zsh-completions'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 brew 'coreutils'
+brew 'moreutils'
 
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
 brew 'findutils'
@@ -19,7 +20,8 @@ brew 'findutils'
 brew 'bash'
 
 # Install more recent versions of some macOS tools
-brew 'homebrew/dupes/grep'
+brew 'grep'
+brew 'openssh'
 
 # Install Binaries
 brew 'git'
@@ -29,26 +31,26 @@ brew 'mas'
 brew 'node'
 brew 'trash'
 brew 'wget'
+brew 'z'
+brew 'entr'
+brew 'zopfli'
+brew 'ncdu' # disk space
 
 # Development
 cask 'docker'
 cask 'visual-studio-code'
 
 # Apps
-cask 'alfred'
-cask 'caffeine'
-cask 'cheatsheet'
-cask 'dash'
 cask 'dropbox'
 cask 'firefox'
 cask 'google-chrome'
 cask 'iterm2'
-cask 'sublime-text'
-cask 'tower'
 cask 'vlc'
 cask 'spotify'
+cask '1password'
 cask 'skype-for-business'
 cask 'karabiner-elements'
+cask 'spectacle'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -64,6 +66,7 @@ cask 'font-dejavu-sans-mono-for-powerline'
 cask 'font-droid-sans'
 cask 'font-droid-sans-mono'
 cask 'font-droid-sans-mono-for-powerline' 
+cask 'font-fira-code' 
 cask 'font-input'
 cask 'font-inconsolata'
 cask 'font-liberation-mono-for-powerline'
