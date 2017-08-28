@@ -42,12 +42,12 @@ if test ! $(which brew); then
 fi
 
 # Update Homebrew recipes
-#brew update
-#brew upgrade
+brew update
+brew upgrade
 
 # Install all our dependencies with bundle (See Brewfile)
-#brew tap homebrew/bundle
-#brew bundle
+brew tap homebrew/bundle
+brew bundle
 
 # change to bash 4 (installed by homebrew)
 BASHPATH=$(brew --prefix)/bin/bash
@@ -60,12 +60,12 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 #chsh -s $(which zsh)
 
 # Install any global npm packages
-#npm install -g gulp
-#npm install -g yarn
-#npm install -g git-open
-#npm install -g git-recent
-#npm install -g diff-so-fancy
-#npm install -g trash-cli
+npm install -g gulp
+npm install -g yarn
+npm install -g git-open
+npm install -g git-recent
+npm install -g diff-so-fancy
+npm install -g trash-cli
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
