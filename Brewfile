@@ -35,6 +35,7 @@ brew 'z'
 brew 'entr'
 brew 'zopfli'
 brew 'ncdu' # disk space
+brew 'watch'
 
 # Development
 cask 'docker'
@@ -51,6 +52,7 @@ cask '1password'
 cask 'skype-for-business'
 cask 'karabiner-elements'
 cask 'spectacle'
+cask 'hammerspoon'
 
 # Quicklook
 cask 'qlcolorcode'

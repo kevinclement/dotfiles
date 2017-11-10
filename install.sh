@@ -57,7 +57,7 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 
 
 # Make ZSH the default shell environment
-#chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 # Install any global npm packages
 npm install -g gulp
@@ -67,6 +67,9 @@ npm install -g git-recent
 npm install -g diff-so-fancy
 npm install -g trash-cli
 
+# Setup symlinks to configs
+./symlink.sh
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
-source .macos
+source macos-setup
