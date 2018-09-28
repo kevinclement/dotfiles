@@ -8,6 +8,7 @@ alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-dir
 # Helpers
 alias ..="cd .."
 alias dir="ll"
+alias clip="pbcopy"
 
 # Directories
 alias dot="cd $MYGITHUB_DIR/dotfiles"

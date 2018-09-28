@@ -40,6 +40,7 @@ brew 'watch'
 # Development
 cask 'docker'
 cask 'visual-studio-code'
+brew 'kube-ps1'
 
 # Apps
 cask 'dropbox'

@@ -21,6 +21,14 @@ gifify() {
   fi
 }
 
+enlist() { 
+if [[ -n "$1" ]]; then
+  git clone "https://outlookweb.visualstudio.com/DefaultCollection/Outlook%20Web/_git/$1" $@[2,-1]
+else
+  echo "proper usage: enlist <git repo>."
+fi
+}
+
 nginxwatch() {
 	sudo fswatch -0 /usr/local/etc/nginx/nginx.conf | sudo xargs -0 -n 1 -I {} sudo nginx -s reload
 }
