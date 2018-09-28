@@ -22,8 +22,12 @@ source ~/.zsh/path.zsh
 # aliases
 source ~/.zsh/aliases.zsh
 
+# binds
+source ~/.zsh/binds.zsh
+
 # prompt
 source ~/.zsh/prompt.zsh
+
 
 # kubeoff by default for now
 kubeoff

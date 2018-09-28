@@ -9,3 +9,6 @@ export MYGITHUB_DIR=$CODE_DIR/github/kevinclement
 
 # Shared 
 export DR=owainternalwest-microsoft.azurecr.io
+
+# shortcut to this dotfiles path is $ZSH
+export ZSH=$CODE_DIR/github/kevinclement/dotfiles

@@ -57,6 +57,10 @@ echo $BASH_VERSION # should be 4.x not the old 3.2.X
 
 
 # Make ZSH the default shell environment
+ZSH_PATH=$(which zsh)
+if ! grep -q $ZSH_PATH '/etc/shells'; then
+  echo $ZSH_PATH | sudo tee -a /etc/shells
+fi
 chsh -s $(which zsh)
 
 # Install any global npm packages

@@ -10,6 +10,9 @@ alias ..="cd .."
 alias dir="ll"
 alias clip="pbcopy"
 
+# Pipe my public key to my clipboard.
+alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
+
 # Directories
 alias dot="cd $MYGITHUB_DIR/dotfiles"
 alias library="cd $HOME/Library"

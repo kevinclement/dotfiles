@@ -1,0 +1,174 @@
+Kevins-MBP-2:dotfiles kevinclement$ ./install.sh
+Setting up your Mac...
+Already up-to-date.
+Tapping caskroom/cask
+Tapping caskroom/fonts
+Tapping caskroom/versions
+Using homebrew/bundle
+Error: homebrew/dupes was deprecated. This tap is now empty as all its formulae were migrated.
+Tapping homebrew/dupes has failed!
+Using zsh
+Using zsh-completions
+Using coreutils
+Using moreutils
+Using findutils
+Using bash
+Using grep
+Using openssh
+Using git
+Using hub
+Using tree
+Using mas
+Using node
+Using trash
+Using wget
+Using z
+Using entr
+Using zopfli
+Using ncdu
+Using watch
+Using docker
+Using visual-studio-code
+Using kube-ps1
+Using dropbox
+Using firefox
+==> Satisfying dependencies
+==> Downloading https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+Already downloaded: /Users/kevinclement/Library/Caches/Homebrew/downloads/9830ac8a5256756d2643fbdb6a47ba0eb019c3816fc4366049f2483999b2ee4f--googlechrome.dmg
+==> Verifying SHA-256 checksum for Cask 'google-chrome'.
+==> Installing Cask google-chrome
+Error: It seems there is already an App at '/Applications/Google Chrome.app'.
+==> Purging files for version 69.0.3497.100 of Cask google-chrome
+Installing google-chrome has failed!
+Using iterm2
+Using vlc
+Using spotify
+Using 1password
+Using skype-for-business
+Using karabiner-elements
+Using spectacle
+Using hammerspoon
+Using qlcolorcode
+Using qlimagesize
+Using qlmarkdown
+Using quicklook-json
+Using quicklook-csv
+Using qlstephen
+Using font-anonymous-pro
+Using font-dejavu-sans-mono-for-powerline
+Error: Cask 'font-droid-sans' is unavailable: No Cask with this name exists. Did you mean one of these?
+font-droid-sans-mono-for-powerline
+font-droidsansmono-nerd-font
+font-droidsansmono-nerd-font-mono
+Installing font-droid-sans has failed!
+Error: Cask 'font-droid-sans-mono' is unavailable: No Cask with this name exists. Did you mean one of these?
+font-droid-sans-mono-for-powerline
+font-droidsansmono-nerd-font
+font-droidsansmono-nerd-font-mono
+Installing font-droid-sans-mono has failed!
+Using font-droid-sans-mono-for-powerline
+Using font-fira-code
+Using font-input
+Using font-inconsolata
+Using font-liberation-mono-for-powerline
+Using font-liberation-sans
+Using font-nixie-one
+Using font-office-code-pro
+Using font-pt-mono
+Using font-roboto
+Using font-source-code-pro
+Using font-source-code-pro-for-powerline
+Using font-source-sans-pro
+Using font-ubuntu
+Using Microsoft Remote Desktop
+Homebrew Bundle failed! 4 Brewfile dependencies failed to install.
+Changing shell for kevinclement.
+Password for kevinclement:
+chsh: no changes made
+3.2.57(1)-release
+Changing shell for kevinclement.
+Password for kevinclement:
+chsh: /usr/local/bin/zsh: non-standard shell
+npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+npm WARN deprecated graceful-fs@3.0.11: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+/usr/local/bin/gulp -> /usr/local/lib/node_modules/gulp/bin/gulp.js
++ gulp@3.9.1
+updated 1 package in 3.412s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+/usr/local/bin/yarnpkg -> /usr/local/lib/node_modules/yarn/bin/yarn.js
+/usr/local/bin/yarn -> /usr/local/lib/node_modules/yarn/bin/yarn.js
++ yarn@1.10.1
+updated 1 package in 0.591s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+/usr/local/bin/git-open -> /usr/local/lib/node_modules/git-open/git-open
+/usr/local/bin/git-home -> /usr/local/lib/node_modules/git-open/git-open
++ git-open@2.0.0
+updated 1 package in 0.537s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+/usr/local/bin/git-recent -> /usr/local/lib/node_modules/git-recent/git-recent
++ git-recent@1.0.4
+updated 1 package in 0.47s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+/usr/local/bin/diff-so-fancy -> /usr/local/lib/node_modules/diff-so-fancy/diff-so-fancy
++ diff-so-fancy@1.2.0
+updated 1 package in 0.523s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+/usr/local/bin/trash -> /usr/local/lib/node_modules/trash-cli/cli.js
++ trash-cli@1.4.0
+updated 1 package in 2.583s
+
+┌─────────────────────────────────────────────────────────────────┐
+│                     npm update check failed                     │
+│               Try running with sudo or get access               │
+│              to the local update config store via               │
+│ sudo chown -R $USER:$(id -gn $USER) /Users/kevinclement/.config │
+└─────────────────────────────────────────────────────────────────┘
+  [✔] /Users/kevinclement/.zshrc → /Users/kevinclement/code/github/kevinclement/dotfiles/.zshrc
+  [✔] /Users/kevinclement/.gitignore → /Users/kevinclement/code/github/kevinclement/dotfiles/.gitignore
+  [✔] /Users/kevinclement/.hushlogin → /Users/kevinclement/code/github/kevinclement/dotfiles/.hushlogin
+  [✔] /Users/kevinclement/bin → /Users/kevinclement/code/github/kevinclement/dotfiles/bin
+  [✔] /Users/kevinclement/.zsh → /Users/kevinclement/code/github/kevinclement/dotfiles/.zsh
+  [✔] /Users/kevinclement/.hammerspoon → /Users/kevinclement/code/github/kevinclement/dotfiles/.hammerspoon
+  [✔] /Users/kevinclement/.config → /Users/kevinclement/code/github/kevinclement/dotfiles/.config
+override rw------T  root/wheel for /private/var/vm/sleepimage?
+touch: /private/var/vm/sleepimage: Operation not permitted
+chflags: /private/var/vm/sleepimage: Operation not permitted
+Set: Entry, ":FK_StandardViewSettings:IconViewSettings:showItemInfo", Does Not Exist
+Set: Entry, ":FK_StandardViewSettings:IconViewSettings:arrangeBy", Does Not Exist
+Set: Entry, ":FK_StandardViewSettings:IconViewSettings:gridSpacing", Does Not Exist
+Set: Entry, ":FK_StandardViewSettings:IconViewSettings:iconSize", Does Not Exist
+disablelocal: Unrecognized verb.
+Done. Note that some of these changes require a logout/restart to take effect.
