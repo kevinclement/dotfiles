@@ -54,6 +54,7 @@ cask 'skype-for-business'
 cask 'karabiner-elements'
 cask 'spectacle'
 cask 'hammerspoon'
+cask 'discord'
 
 # Quicklook
 cask 'qlcolorcode'
@@ -66,8 +67,6 @@ cask 'qlstephen'
 # Fonts
 cask 'font-anonymous-pro'
 cask 'font-dejavu-sans-mono-for-powerline'
-cask 'font-droid-sans'
-cask 'font-droid-sans-mono'
 cask 'font-droid-sans-mono-for-powerline' 
 cask 'font-fira-code' 
 cask 'font-input'
