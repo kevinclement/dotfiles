@@ -70,6 +70,7 @@ npm install -g git-open
 npm install -g git-recent
 npm install -g diff-so-fancy
 npm install -g trash-cli
+npm install -g http-server
 
 # Setup symlinks to configs
 ./symlink.sh
