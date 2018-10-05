@@ -42,6 +42,7 @@ cask 'docker'
 cask 'visual-studio-code'
 brew 'kube-ps1'
 brew 'kubectx'
+brew 'kubernetes-helm'
 
 # Apps
 cask 'dropbox'
