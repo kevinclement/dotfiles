@@ -21,3 +21,6 @@ alias root="cd $CODE_DIR"
 alias owa="cd $OWA_DIR"
 alias mail="cd $OWA_DIR/production/owa-mail"
 alias ninja="cd $OWA_DIR/internal/ninja"
+
+# Overrides
+alias curl="http"

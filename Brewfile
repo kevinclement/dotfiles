@@ -43,6 +43,7 @@ cask 'visual-studio-code'
 brew 'kube-ps1'
 brew 'kubectx'
 brew 'kubernetes-helm'
+brew 'httpie'
 
 # Apps
 cask 'dropbox'
