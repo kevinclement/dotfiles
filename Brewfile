@@ -58,6 +58,7 @@ cask 'karabiner-elements'
 cask 'spectacle'
 cask 'hammerspoon'
 cask 'discord'
+cask 'kap'
 
 # Quicklook
 cask 'qlcolorcode'
