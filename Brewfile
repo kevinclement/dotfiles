@@ -59,6 +59,7 @@ cask 'spectacle'
 cask 'hammerspoon'
 cask 'discord'
 cask 'kap'
+cask 'dash'
 
 # Quicklook
 cask 'qlcolorcode'
