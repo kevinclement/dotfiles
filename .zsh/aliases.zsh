@@ -19,6 +19,7 @@ alias library="cd $HOME/Library"
 alias root="cd $CODE_DIR"
 
 alias owa="cd $OWA_DIR"
+alias sa="cd $MYGITHUB_DIR/simplearmory/web"
 alias mail="cd $OWA_DIR/production/owa-mail"
 alias ninja="cd $OWA_DIR/internal/ninja"
 
