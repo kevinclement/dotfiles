@@ -237,6 +237,22 @@
                     "to": {
                         "key_code": "left_command"
                     }
+                },
+                {
+                    "from": {
+                        "key_code": "keypad_num_lock"
+                    },
+                    "to": {
+                        "key_code": "vk_consumer_previous"
+                    }
+                },
+                {
+                    "from": {
+                        "key_code": "keypad_hyphen"
+                    },
+                    "to": {
+                        "key_code": "fastforward"
+                    }
                 }
             ],
             "virtual_hid_keyboard": {

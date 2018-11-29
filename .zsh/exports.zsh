@@ -12,3 +12,6 @@ export DR=owainternalwest-microsoft.azurecr.io
 
 # shortcut to this dotfiles path is $ZSH
 export ZSH=$CODE_DIR/github/kevinclement/dotfiles
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
