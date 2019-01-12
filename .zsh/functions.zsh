@@ -23,7 +23,7 @@ gifify() {
 
 enlist() { 
 if [[ -n "$1" ]]; then
-  git clone "https://outlookweb.visualstudio.com/DefaultCollection/Outlook%20Web/_git/$1" $@[2,-1]
+  git clone "outlookweb@vs-ssh.visualstudio.com:v3/outlookweb/Outlook%20Web/$1" $@[2,-1]
 else
   echo "proper usage: enlist <git repo>."
 fi
