@@ -20,8 +20,10 @@ alias root="cd $CODE_DIR"
 
 alias owa="cd $OWA_DIR"
 alias sa="cd $MYGITHUB_DIR/simplearmory/web"
-alias mail="cd $OWA_DIR/production/owa-mail"
+alias mail="cd $OWA_DIR/production/client-web"
 alias ninja="cd $OWA_DIR/internal/ninja"
 alias puzz="cd $MYGITHUB_DIR/exitpuzzles/"
+
+alias s="ssh pi@pi3b.local"
 
 # Overrides

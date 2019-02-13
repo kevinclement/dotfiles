@@ -4,7 +4,7 @@ export LANG=en_US.UTF-8
 
 # Directories
 export CODE_DIR=$HOME/code
-export OWA_DIR=$CODE_DIR/vsts/outlookweb
+export OWA_DIR=$CODE_DIR/vsts/
 export MYGITHUB_DIR=$CODE_DIR/github/kevinclement
 
 # Shared 
