@@ -9,6 +9,7 @@ alias ll="$(brew --prefix coreutils)/libexec/gnubin/ls -ahlF --color --group-dir
 alias ..="cd .."
 alias dir="ll"
 alias clip="pbcopy"
+alias f="find . -iname"
 
 # Pipe my public key to my clipboard.
 alias pubkey="more ~/.ssh/id_rsa.pub | pbcopy | echo '=> Public key copied to pasteboard.'"
